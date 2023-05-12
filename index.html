@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+
+        <h1>Criar Conta</h1>
+
+        <div class="social-media">
+
+            <a href="https://www.googlr.com/" target="_blank">
+                <img src="Tela de Login 2.0 (Alunos)/assets/google.png" alt="google">
+            </a>
+
+            <a href="https://pt-br.facebook.com/" target="_blank">
+                <img src="Tela de Login 2.0 (Alunos)/assets/facebook.png" alt="facebook">
+            </a>
+
+            <a href="https://br.linkedin.com/" target="_blank">
+                <img src="Tela de Login 2.0 (Alunos)/assets/linkedin.png" alt="linkedin">
+            </a>
+
+        </div>
+
+        <div class="alternative">
+            <span>OU</span>
+        </div>
+
+        <form action="https://api.sheetmonkey.io/form/tZTyP5J7ppfWreMvZJXZcf" method="post">
+
+            <label for="name">
+                <span>Nome</span>
+                <input type="text" id="name" name="name">
+            </label>
+
+            <label>
+                <span>Cep</span>
+                <input name="cep" type="text" id="cep" value="" size="10" maxlength="9" onblur="pesquisacep(this.value);"/>
+            </label>
+
+            <label>
+                <span>Rua</span>
+                <input name="rua" type="text" id="rua" size="60">
+            </label>
+
+            <label>
+                <span>Bairro</span>
+                <input name="bairro" type="text" id="bairro" size="40">
+            </label>
+
+            <label>
+                <span>Cidade</span>
+                <input name="cidade" type="text" id="cidade" size="40">
+            </label>
+
+            <label>
+                <span>Estado</span>
+                <input name="uf" type="text" id="uf" size="2">
+            </label>
+
+            <input type="submit" value="Enviar">
+
+        </form>
+    </main>
+
+    <section class="images">
+
+        <img src="Tela de Login 2.0 (Alunos)/assets/mobile.svg" alt="mobile">
+        <div class="circle"></div>
+    </section>
+
+    <script src="javascr.js"></script>
+</body>
+</html>
